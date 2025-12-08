@@ -4,12 +4,17 @@ body {
 }
 
 header {
-
     background-image: url(iconos/Rectangle\ 1.png);
-    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
+
 
 #buttons_header {
     font-family: "Krona One", sans-serif;
@@ -55,7 +60,7 @@ header {
 
 #Contenido_Principal {
     position: relative;
-    border: 10px solid green;
+
 
 }
 
@@ -298,3 +303,63 @@ header {
 
     font-family: "AR One Sans", sans-serif;
 }
+
+/*-------------------------------------PIE DE PAGINA----------------------------------------------------*/
+
+.footer-seguro {
+    background-color: #007b25; 
+    color: white;
+    padding: 40px 0;
+    font-family: "AR One Sans", sans-serif;
+}
+
+.footer-seguro .footer-contenedor {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-seguro .footer-columna {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-seguro .footer-columna h3 {
+    font-family: "Krona One", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-seguro .footer-columna a {
+    color: #e8e8e8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-seguro .footer-columna a:hover {
+    color: white;
+}
+
+.footer-seguro .footer-redes {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-seguro .footer-redes img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-seguro .footer-copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+
+
