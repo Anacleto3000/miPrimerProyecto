@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    margin-top: 180px;
+
+}
+
+header {
+    background-image: url(iconos/Rectangle\ 1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#buttons_header {
+    font-family: "Krona One", sans-serif;
+    color: aliceblue;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#container_jabones{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#jabones_title {
+    font-family: "Krona One", sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+#items_jabones {
+    width: 60%;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+
+}
+
+#items_jabones p {
+    font-family: "AR One Sans", sans-serif;
+    font-size: 15px;
+}
+
+#items_jabones h2{ 
+    height: 40px;
+}
+
+#items_jabones img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+
+
+}
+
+#items_jabones div {
+    
+    border: 2px solid red;
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+#items_jabones #item1_jabon{
+    background-color: rgba(255, 229, 229, 0.386);
+}
+
+#items_jabones #item2_jabon{
+    background-color: rgb(220, 255, 223, 0.386);
+}
+#items_jabones #item3_jabon{
+    background-color: rgb(217, 219, 255, 0.386);
+}
+
+/*-------------------------------APARTADO PARA SHAMPOOS----------------------------------------------------*/
+
+#container_shampoos{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#shampoos_title {
+    font-family: "Krona One", sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+#items_shampoos {
+    width: 60%;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+
+}
+
+
+#items_shampoos p {
+    font-family: "AR One Sans", sans-serif;
+    font-size: 15px;
+   
+}
+
+#items_shampoos h2{
+
+    
+    height: 40px;
+}
+
+#items_shampoos img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+#items_shampoos div {
+    
+    border: 2px solid red;
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+#items_shampoos #item1_shampoo{
+    background-color: rgba(255, 229, 253, 0.386);
+}
+#items_shampoos #item2_shampoo{
+    background-color: rgba(220, 246, 255, 0.386);
+}
+#items_shampoos #item3_shampoo{
+    background-color: rgba(255, 243, 217, 0.386);
+}
