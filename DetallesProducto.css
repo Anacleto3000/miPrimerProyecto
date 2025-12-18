@@ -57,6 +57,17 @@ header{
 
 }
 
+#imagen_producto{
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15)
+
+}
+
 #imagen_producto img{
    
     border: 2px solid red;
@@ -68,8 +79,9 @@ header{
 
 
 #Textbox_producto{
-    border: 2px solid rgb(209, 0, 209);
+    
     width: 50%;
+    
 
     
 }
@@ -80,6 +92,8 @@ header{
     font-size: 25px;
     text-align: center;
     height: 20%;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 #descripcion_producto{
@@ -87,6 +101,8 @@ header{
     border: 2px solid orange;
     font-family: "AR One Sans", sans-serif;
     font-size: 15px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 
     padding: 5%;
 
