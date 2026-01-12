@@ -1,3 +1,28 @@
+<?php
+if (!isset($_GET['id'])) {
+    die("Producto no encontrado");
+}
+
+$id = $_GET['id'];
+
+
+$conn = new mysqli("localhost", "root", "", "miprimerproyecto");
+
+$stmt = $conn->prepare("SELECT * FROM productos WHERE id = ?");
+$stmt->bind_param("i", $id);
+$stmt->execute();
+
+$result = $stmt->get_result();
+$producto = $result->fetch_assoc();
+
+if (!$producto) {
+    die("Producto no existe");
+}
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,25 +60,44 @@
             <div id="container_secundario">
 
                 <div id="imagen_producto">
-                    <img src="imagenes/image 9.png" alt="">
+                    <img src="imagenes/<?= $producto['imagen'] ?>">
                 </div>
 
                 <div id="Textbox_producto">
                     <div id="title_producto">
-                        <p>TITULO DEL PRODUCTO</p>
+                        <p><?= $producto['nombre'] ?></p>
+
                     </div>
 
-                    <div id="descripcion_producto">
-                        <p>Descripción detallada del producto. Información sobre sus características, beneficios y modo
-                            de uso. Ideal para atraer a los clientes y proporcionarles toda la información que necesitan
-                            antes de realizar una compra.</p>
+                    <div id="info_precio">
+                        <p> S/ <?= $producto['precio'] ?></p>
                     </div>
+
+                    <div id="container_button">
+                        <button id="button_Agregar_carrito" type="submit">Agregar al carrito</button>
+                    </div>
+
+
                 </div>
 
 
 
             </div>
+
+            <div id="Info_producto">
+                <div id="especificaciones">
+
+                </div>
+                <div id="descripcion_producto">
+                    <p><?= $producto['descripcion'] ?></p>
+                </div>
+
+            </div>
+
+
         </div>
+
+
 
 
 

@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0;
+    background-color: rgb(234, 234, 234);
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     border: 2px solid black;
@@ -23,15 +24,15 @@ header{
 }
 
 
-#container_principal{
+#container_principal {
     border: 2px solid black;
+    padding: 20px;
 
-   
     height: 800px;
 
-    margin: auto;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -39,72 +40,115 @@ header{
 
 
 
-#container_secundario{
-    border: 2px solid green;
+#container_secundario {
+    
+    background-color: rgb(251, 251, 251);
+   
+    border-radius: 10px;
 
     width: 60%;
     height: 600px;
 
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 100px;
 
     padding-left: 10%;
     padding-right: 10%;
 
-    
-    
+
+
 
 }
 
-#imagen_producto{
+#imagen_producto {
+    margin-top: 50px;
     width: 400px;
     height: 400px;
 
     display: flex;
     justify-content: center;
-    
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15)
+    align-items: center;
 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15)
 }
 
-#imagen_producto img{
-   
+#imagen_producto img {
+
     border: 2px solid red;
     width: 300px;
     height: 300px;
-    
+
+
+}
+
+
+#Textbox_producto {
+
+    width: 50%;
+}
+
+#info_precio {
+    border: 2px solid darkmagenta;
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+}
+
+#container_button {
     margin-top: 50px;
 }
 
+#button_Agregar_carrito {
+    font-weight: bolder;
+    font-size: 18px;
 
-#Textbox_producto{
-    
-    width: 50%;
-    
+    border: none;
+    color: rgb(36, 36, 36);
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(0, 194, 0);
 
-    
 }
 
-#title_producto{
+#title_producto {
     border: 2px solid blue;
     font-family: "Krona One", sans-serif;
     font-size: 25px;
     text-align: center;
     height: 20%;
 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-#descripcion_producto{
-    margin-top: 3%;
+
+
+
+#Info_producto {
+
+    width: 80%;
+    border: 2px solid chartreuse;
+    display: flex;
+    gap: 50px;
+
+}
+
+
+#especificaciones {
+    border: 2px solid darkblue;
+    width: 40%;
+
+
+}
+
+#descripcion_producto {
+    width: 60%;
     border: 2px solid orange;
     font-family: "AR One Sans", sans-serif;
     font-size: 15px;
 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 
     padding: 5%;
-
-}
     
+}

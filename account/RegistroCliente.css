@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    font-family: "Krona One", sans-serif;
+}
+
+#caja_principal {
+    border: 2px solid darkblue;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caja_secundaria {
+    background-color: rgb(227, 227, 227);
+    border-radius: 20px;
+    border: 2px solid firebrick;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+
+#Titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#box_input_datos form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#box_input_datos input {
+    width: 75%;
+    height: 35px;
+    font-family: "AR One Sans", sans-serif;
+    padding-left: 10px;
+}
+
+#Container_Button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#Container_Button button {
+    background-color: rgb(93, 149, 109);
+    color: aliceblue;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+    font-family: "Krona One", sans-serif;
+    cursor: pointer;
+}
+
+#Container_Button button:hover {
+    background-color: rgb(75, 125, 90);
+}
+
+#caja_terciaria {
+    background-color: rgb(227, 227, 227);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    width: 40%;
+}
+
+#no_account p {
+    text-align: center;
+    font-size: 12px;
+}

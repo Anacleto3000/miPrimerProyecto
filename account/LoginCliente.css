@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+p {
+    font-family: "Krona One", sans-serif;
+}
+
+#caja_principal {
+    border: 2px solid darkblue;
+    width: 70%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#caja_secundaria {
+    background-color: rgb(227, 227, 227);
+    border-radius: 20px;
+    border: 2px solid firebrick;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+
+#Titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#box_input_datos form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    border: 2px solid slateblue;
+}
+
+
+
+#box_input_datos input {
+    width: 75%;
+    height: 35px;
+}
+
+#Container_Button {
+    border: 2px solid forestgreen;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Container_Button button {
+    background-color: rgb(93, 149, 109);
+
+    color: aliceblue;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    font-family: "Krona One", sans-serif;
+
+}
+
+
+#caja_terciaria {
+    background-color: rgb(227, 227, 227);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 40%;
+    border: 2px solid darkorange;
+}
+
+#no_key p {
+    font-size: 12px;
+    border: 2px solid darkblue;
+    text-align: center;
+}
+
+#ini_alternativa {
+    width: 100%;
+    border: 2px solid rgb(36, 147, 159);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ini_alternativa p {
+    font-size: 14px;
+}
+
+#ini_alternativa img {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#no_account {
+    font-size: 12px;
+    width: 100%;
+    border: 2px solid darkgoldenrod;
+}
+
+#no_account p {
+    text-align: center;
+}

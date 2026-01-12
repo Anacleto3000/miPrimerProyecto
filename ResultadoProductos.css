@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    margin-top: 100px !important;
+    background-color: #e5e5e5 !important;
+
+
+
+
+}
+
+header {
+    background-image: url(iconos/Rectangle\ 1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+
+}
+
+header span {
+    font-family: "Krona One", sans-serif;
+    color: aliceblue;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#buttons_header {
+    font-family: "Krona One", sans-serif;
+    color: aliceblue;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 70px;
+    padding-right: 70px;
+
+    border: 2px solid black;
+
+}
+
+#Box_Button_Inicio {
+    border: 2px solid red;
+}
+
+#Barra_busqueda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid green;
+    width: 500px;
+
+}
+
+#Barra_busqueda input {
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#Barra_busqueda button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#Box_Button_Otros {
+    align-items: center;
+
+    display: flex;
+    gap: 70px;
+}
+
+
+#Box_Button_carrito {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#Box_Button_carrito img {
+    width: 40px;
+    height: 40px;
+}
+
+#Button_buscar img {
+    width: 40px;
+    height: 40px;
+}
+
+
+#box_principal {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 50px;
+    border: 2px solid rgb(0, 0, 0);
+
+    justify-content: center;
+
+}
+
+#Menu {
+    background-color: rgb(250, 250, 250);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+  
+    margin-left: 50px;
+
+    border-radius: 20px;
+}
+
+#menu, #resultado_productos{
+    flex: 1;
+}
+
+#resultado_productos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    width: 70%;
+    border: 2px solid rgb(0, 204, 255);
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#contenedor_productos{
+    border: 2px solid forestgreen;
+    width: 830px;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 35px;
+}
+
+.producto{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+    width: 220px;
+    height: 330px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 15px;
+
+
+    
+}
+
+
+.producto img{
+   border: 2px solid goldenrod;
+   width: 200px;
+   height: 200px;
+
+
+   
+   
+}
+
+

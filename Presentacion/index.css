@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-image: url(iconos/Rectangle\ 1.png);
+    background-image: url(../iconos/Rectangle\ 1.png);
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(iconos/image\ 1.png);
+    background-image: url(../iconos/image\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
